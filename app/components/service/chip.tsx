@@ -1,7 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export default function chip({imgsrc, heading, para}) {
+interface ChipProps {
+  imgsrc: string;
+  heading: string;
+  para: string;
+}
+
+export default function chip({imgsrc, heading, para}: ChipProps) {
   return (
     <div className='h-[150vw] w-[93vw] md:h-[45vw] flex justify-center items-end rounded-2xl'>
         <img src={imgsrc} alt="service-main-img" className='absolute rounded-2xl w-[93vw] h-[150vw] md:h-[45vw] object-cover object-center' />
@@ -14,10 +20,4 @@ export default function chip({imgsrc, heading, para}) {
       </div>
     </div>
   )
-}
-
-chip.propTypes = {
-  imgsrc: PropTypes.string.isRequired,
-  heading: PropTypes.string.isRequired,
-  para: PropTypes.string.isRequired,
 }
