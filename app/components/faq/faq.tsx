@@ -19,32 +19,32 @@ export default function faq() {
          </div>
 
          <div className='pt-[10vw] md:pt-[0vw] flex flex-col gap-[6vw] md:gap-4'>
-            <div className='px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
+            <div className='rounded-2xl px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
                 <h3 className='font-tight text-lg'>What services does Kanzo Studio offer?</h3>
 
                 <p className='text-[4vw] md:text-[1.3vw] font-tight text-[#5B5B5B] font-normal '>We specialize in branding, web design, web development, and digital product design — helping businesses build a strong and memorable digital presence.</p>
             </div>
 
-            <div className='px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
+            <div className='rounded-2xl px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
                 <h3 className='font-tight text-lg'>How long does a typical project take?</h3>
 
                 <p className='text-[4vw] md:text-[1.3vw] font-tight text-[#5B5B5B] font-normal '>Most projects take between 2–6 weeks depending on complexity, deliverables, and revision rounds. We’ll provide a clear timeline after reviewing your project scope.</p> 
             </div>
 
-            <div className='px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
+            <div className='rounded-2xl px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
                 <h3 className='font-tight text-lg'>Do you work with startups or only established brands?</h3>
 
                 <p className='text-[4vw] md:text-[1.3vw] font-tight text-[#5B5B5B] font-normal '>We work with businesses of all sizes — from early-stage startups to established companies. Our goal is to help you grow with design that elevates your brand.</p>
             </div>
 
-             <div className='px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
+             <div className='rounded-2xl px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
                 <h3 className='font-tight text-lg'>Can you develop using Webflow or Framer?</h3>
 
                 <p className='text-[4vw] md:text-[1.3vw] font-tight text-[#5B5B5B] font-normal '>Yes. We build high-quality, responsive websites using platforms like Webflow and Framer, complete with animations, CMS setup, and best-practice performance optimization.</p>
             </div>
 
             
-             <div className='px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
+             <div className='rounded-2xl px-[3vw] md:px-[1.5vw] py-[3vw] md:py-[1.5vw] bg-[#F5F5F5] w-[85vw] md:w-[48vw] flex flex-col gap-2'>
                 <h3 className='font-tight text-lg'>What is required to start a project?</h3>
 
                 <p className='text-[4vw] md:text-[1.3vw] font-tight text-[#5B5B5B] font-normal '>We’ll ask for your brief, project goals, references, and required deliverables. After confirming scope and pricing, a 50% upfront payment secures your project slot.</p>
