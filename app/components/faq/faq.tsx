@@ -8,13 +8,13 @@ export default function faq() {
   return (
     <div className='bg-white pt-[7vw]'>
         <div className='px-[7vw] md:px-[3vw] flex flex-col md:flex-row'>
-        <div className=''>
+        <div className='w-1/2'>
 
         <span className='bg-gray-100 inline-flex px-1.5 py-0.5 gap-2 font-instrument text-base text-[#506E61] font-medium'><img src="/images/section-icon.svg" alt="sectionicon" />FAQS</span>
 
-        <h2 className='w-[100%] pt-4 text-[7vw] md:text-6xl font-tight font-normal leading-tight'>Frequently <span className='font-lato-italic font-medium'>Ask</span> <span className=' font-lato-italic font-medium mt-1'>Questions</span></h2>
+        <h2 className='w-[100%] pt-4 text-[7vw] md:text-6xl font-tight font-normal leading-tight'>Frequently <span className='font-lato-italic font-medium'>Ask</span> <br/> <span className=' font-lato-italic font-medium mt-1'> Questions</span></h2>
 
-         <Link href='#' className='mt-[15vw] text-white font-tight w-fit bg-[#506E61] px-8 py-3 rounded-xl flex justify-between gap-2'><span className='text-base font-tight font-medium flex items-center '>Contact Us</span> <span className='text-sm font-tight font-medium flex items-center'><FontAwesomeIcon icon={faArrowRight} style={{ color: 'rgb(255, 255, 255)', width: '16px' }} /></span></Link>
+         <Link href='#' className='mt-[5vw] text-white font-tight w-fit bg-[#506E61] px-8 py-3 rounded-xl flex justify-between gap-2 md:mt-[2vw]'><span className='text-base font-tight font-medium flex items-center '>Contact Us</span> <span className='text-sm font-tight font-medium flex items-center'><FontAwesomeIcon icon={faArrowRight} style={{ color: 'rgb(255, 255, 255)', width: '16px' }} /></span></Link>
 
          </div>
 
