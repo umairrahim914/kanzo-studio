@@ -14,7 +14,7 @@ export default function hero() {
             <Link href='#' className='text-black w-fit bg-white px-8 py-3 rounded-xl flex justify-between gap-2'><span className='md:text-sm text-lg font-tight md:font-medium font-normal flex items-center '>Book a call</span> <span className='text-sm font-tight font-medium flex items-center'><FontAwesomeIcon icon={faArrowRight} style={{ color: 'rgb(0, 0, 0)', width: '16px' }} /></span></Link>
         </div>
 
-        <div className='absolute bottom-0 left-[8%] bg-white rounded-2xl p-3 md:w-[20vw] w-[50vw] md:left-[78%]'>
+        <div className='absolute translate-y-[-2vw] bottom-0 left-[8%] bg-white rounded-2xl p-3 md:w-[20vw] w-[50vw] md:left-[78%]'>
           <div className='overflow-hidden rounded-xl'>
             <img src="/images/cardimg.webp" alt="cardimg" className='object-cover h-[25vw] md:h-[10vw] w-full' />
           </div>

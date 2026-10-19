@@ -60,14 +60,14 @@ html, body{
   background-image: url("/images/footer-img.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 184vh;
+  height: 175vh;
 
   
 }
 
 @media (max-width: 600px){
   .footerimg{
-    height: 94vh;
+    height: 125vh;
   }
   .imganim{
     animation: none;

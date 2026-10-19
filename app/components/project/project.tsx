@@ -54,7 +54,7 @@ export default function project() {
       <div className='md:h-[400vh] md:overflow-clip'>
 
         
-        <div className='imganim py-[7vw] md:py-0 w-full pr-[3vw] relative md:w-[200vw] md:sticky top-0 md:h-screen flex flex-col md:flex-row items-end gap-[7vw] md:gap-[3vw] flex-nowrap pl-[3vw] md:pr-0'>
+        <div className='imganim translate-y-[-2vw] py-[7vw] md:py-0 w-full pr-[3vw] relative md:w-[200vw] md:sticky top-0 md:h-screen flex flex-col md:flex-row items-end gap-[7vw] md:gap-[3vw] flex-nowrap pl-[3vw] md:pr-0'>
 
 
           {projects.map((project, i) => (
@@ -66,83 +66,6 @@ export default function project() {
                     raised={project.raised}
                   />
                 ))}
-
-          {/* <div className=' w-full md:translate-y-[-13vh] flex flex-col gap-[4vw] md:gap-[1vw] md:w-[28vw] bg-white p-[1vw] rounded-[8px]'>
-            <div className='rounded-[8px] w-full h-[80vw] md:w-[26vw] md:h-[26vw] md:overflow-clip'>
-              <img src="/images/cardimg.webp" alt="okk" className='rounded-[8px] w-full h-[80vw] md:w-[28vw] md:h-[28vw] object-cover' />
-            </div>
-            <h3 className='text-4xl md:text-3xl font-lato font-medium'>Tsuki House</h3>
-            <div className='flex'>
-              <span className='bg-[#EEEEEE] inline-flex px-6 py-0.5 font-tight text-xl md:text-sm text-black font-normal'>Hospitality</span>
-
-              <span className='bg-[#EEEEEE] inline-flex mx-[1.5vw] px-6 py-0.5 font-tight text-xl md:text-sm text-black font-normal'>Retail / F & B</span>
-            </div>
-          </div>
-
-
-          <div className='flex flex-col gap-[1vw] w-[28vw] bg-white p-[1vw] rounded-[8px]'>
-            <div className='rounded-[8px] w-[26vw] h-[26vw] overflow-clip'>
-              <img src="/images/projectsecondimg.webp" alt="okk" className='rounded-[8px] w-[28vw] h-[28vw] object-cover' />
-            </div>
-            <h3 className='text-3xl font-lato font-medium'>Tsuki House</h3>
-            <div className='flex'>
-              <span className='bg-[#EEEEEE] inline-flex px-6 py-0.5 font-tight text-sm text-black font-normal'>Hospitality</span>
-
-              <span className='bg-[#EEEEEE] inline-flex mx-[1.5vw] px-6 py-0.5 font-tight text-sm text-black font-normal'>Retail / F & B</span>
-            </div>
-          </div>
-
-
-          <div className='translate-y-[-13vh] flex flex-col gap-[1vw] w-[28vw] bg-white p-[1vw] rounded-[8px]'>
-            <div className='rounded-[8px] w-[26vw] h-[26vw] overflow-clip'>
-              <img src="/images/project3img.webp" alt="okk" className='rounded-[8px] w-[28vw] h-[28vw] object-cover' />
-            </div>
-            <h3 className='text-3xl font-lato font-medium'>Tsuki House</h3>
-            <div className='flex'>
-              <span className='bg-[#EEEEEE] inline-flex px-6 py-0.5 font-tight text-sm text-black font-normal'>Hospitality</span>
-
-              <span className='bg-[#EEEEEE] inline-flex mx-[1.5vw] px-6 py-0.5 font-tight text-sm text-black font-normal'>Retail / F & B</span>
-            </div>
-          </div>
-
-
-
-          <div className='flex flex-col gap-[1vw] w-[28vw] bg-white p-[1vw] rounded-[8px]'>
-            <div className='rounded-[8px] w-[26vw] h-[26vw] overflow-clip'>
-              <img src="/images/project4img.webp" alt="okk" className='rounded-[8px] w-[28vw] h-[28vw] object-cover' />
-            </div>
-            <h3 className='text-3xl font-lato font-medium'>Tsuki House</h3>
-            <div className='flex'>
-              <span className='bg-[#EEEEEE] inline-flex px-6 py-0.5 font-tight text-sm text-black font-normal'>Hospitality</span>
-
-              <span className='bg-[#EEEEEE] inline-flex mx-[1.5vw] px-6 py-0.5 font-tight text-sm text-black font-normal'>Retail / F & B</span>
-            </div>
-          </div>
-
-          <div className='translate-y-[-13vh] flex flex-col gap-[1vw] w-[28vw] bg-white p-[1vw] rounded-[8px]'>
-            <div className='rounded-[8px] w-[26vw] h-[26vw] overflow-clip'>
-              <img src="/images/project5inmg.webp" alt="okk" className='rounded-[8px] w-[28vw] h-[28vw] object-cover' />
-            </div>
-            <h3 className='text-3xl font-lato font-medium'>Tsuki House</h3>
-            <div className='flex'>
-              <span className='bg-[#EEEEEE] inline-flex px-6 py-0.5 font-tight text-sm text-black font-normal'>Hospitality</span>
-
-              <span className='bg-[#EEEEEE] inline-flex mx-[1.5vw] px-6 py-0.5 font-tight text-sm text-black font-normal'>Retail / F & B</span>
-            </div>
-          </div>
-
-          <div className='flex flex-col gap-[1vw] w-[28vw] bg-white p-[1vw] rounded-[8px]'>
-            <div className='rounded-[8px] w-[26vw] h-[26vw] overflow-clip'>
-              <img src="/images/project6inmg.webp" alt="okk" className='rounded-[8px] w-[28vw] h-[28vw] object-cover' />
-            </div>
-            <h3 className='text-3xl font-lato font-medium'>Tsuki House</h3>
-            <div className='flex'>
-              <span className='bg-[#EEEEEE] inline-flex px-6 py-0.5 font-tight text-sm text-black font-normal'>Hospitality</span>
-
-              <span className='bg-[#EEEEEE] inline-flex mx-[1.5vw] px-6 py-0.5 font-tight text-sm text-black font-normal'>Retail / F & B</span>
-            </div>
-          </div> */}
-
 
 
           

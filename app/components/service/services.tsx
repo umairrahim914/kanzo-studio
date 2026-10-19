@@ -73,7 +73,7 @@ export default function services() {
         )}
       </div>
 
-      <div className='z-3 mt-[15vw] flex flex-col gap-8'>
+      <div className='z-3 mt-[5vw] flex flex-col gap-8'>
         <p className='text-[#5B5B5B] text-[3.5vw] md:text-lg font-tight font-normal text-center'>Join over 500 businesses already growing with Prospect.</p>
 
         <div className='px-[7vw] md:px-0 flex flex-wrap md:flex-row gap-[5vw] md:gap-12 items-center '>

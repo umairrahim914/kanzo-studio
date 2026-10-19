@@ -12,7 +12,7 @@ export default function footer() {
             <Link href='#' className='mt-[4vw] md:mt-[0vw] text-white font-tight w-fit bg-white px-8 py-3 rounded-xl flex justify-between gap-2'><span className='text-black text-base font-tight font-medium flex items-center '>Contact Us</span> <span className='text-sm font-tight font-medium flex items-center'><FontAwesomeIcon icon={faArrowRight} style={{ color: 'rgb(0, 0, 0)', width: '16px' }} /></span></Link>  
         </div>
 
-        <div className='bg-white h-[120vw] md:h-[60vw] w-full px-[6vw] py-[8vw] md:px-[3vw] md:py-[3vw] mt-[25vw] md:mt-[5vw] rounded-[20px] flex flex-col items-start gap-6'>
+        <div className='bg-white h-[135vw] md:h-[60vw] w-full px-[6vw] py-[8vw] md:px-[3vw] md:py-[3vw] mt-[25vw] md:mt-[5vw] rounded-[20px] flex flex-col items-start gap-6'>
             
                 <img src="/images/footer-icon.svg" alt="footer-icon" className='mt-[2vw] md:mt-0 h-[6.3vw] md:h-8 w-auto' />
 
